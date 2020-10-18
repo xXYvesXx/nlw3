@@ -8,12 +8,12 @@ import '../styles/pages/orphanages-map.css'
 
 function OrphanagesMap() {
   return (
-    <div className="page-map">
+    <div id="page-map">
       <aside>
         <header>
           <img src={mapMarkerImg} alt="Happy" />
 
-          <h2>Escolha umorfanato no mapa</h2>
+          <h2>Escolha um orfanato no mapa</h2>
           <p>Muitas crianças estão esperando a sua visita :)</p>
         </header>
 
